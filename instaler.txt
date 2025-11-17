@@ -1,0 +1,20 @@
+"C:\Program Files\Java\jdk-25\bin\jpackage.exe" ^
+  --type exe ^
+  --name "VoiceAssistant" ^
+  --app-version 1.0.0 ^
+  --input "app\build\libs" ^
+  --main-jar app.jar ^
+  --main-class projeto.java.MainApp ^
+  --runtime-image "runtime-voiceassistant" ^
+  --java-options "--add-modules=javafx.controls,javafx.fxml --enable-native-access=javafx.graphics" ^
+  --dest "dist" ^
+  --vendor "Guilherme Dev" ^
+  --description "Assistente de voz para automatizar tarefas no seu PC." ^
+  --icon "recursos-installer\icon.ico" ^
+  --win-menu ^
+  --win-menu-group "Guilherme Apps" ^
+  --win-shortcut ^
+  --win-dir-chooser ^
+  --win-per-user-install ^
+  --license-file "recursos-installer\LICENSE.txt" ^
+  --about-url "https://github.com/Gzerio"

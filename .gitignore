@@ -1,0 +1,34 @@
+# === Gradle / Java build ===
+.gradle/
+build/
+app/build/
+out/
+
+# Distribuição / instalador
+dist/
+runtime-voiceassistant/
+recursos-installer/
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistema
+.DS_Store
+*.log
+*.tmp
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Segredos
+.env
+*.env
+
+# Arquivos gerados pelo app
+custom_commands.json
