@@ -140,7 +140,7 @@ public class MainView {
         feedbackArea.setAlignment(Pos.CENTER);
 
         // ---------- “VOCÊ DISSE” ----------
-        recognizedTitleLabel = new Label("Você disse");
+        recognizedTitleLabel = new Label("Comandos:");
         recognizedTitleLabel.getStyleClass().add("recognized-title");
 
         recognizedField = new TextArea();

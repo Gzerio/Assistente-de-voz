@@ -90,13 +90,13 @@ public class FaqWindow {
         formTitle.getStyleClass().add("settings-title");
 
         TextField nameField = new TextField();
-        nameField.setPromptText("Nome do comando (ex.: Abrir ChatGPT)");
+        nameField.setPromptText("Nome do comando (ex.: Abrir Youtube)");
 
         TextField phrasesField = new TextField();
         phrasesField.setPromptText("Frases de ativação (separadas por vírgula)");
 
         TextField urlField = new TextField();
-        urlField.setPromptText("URL para abrir (ex.: https://chat.openai.com)");
+        urlField.setPromptText("URL para abrir (ex.: https://youtube.com)");
 
         Button btnAdd = new Button("Adicionar comando");
         btnAdd.getStyleClass().add("settings-save-button");
